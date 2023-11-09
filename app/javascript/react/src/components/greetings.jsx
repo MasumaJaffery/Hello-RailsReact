@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getGreetings } from './redux/slice'; // Update the correct path to your slice file
+import { getGreetings } from '../redux/slice';
 
 function Greetings() {
   const dispatch = useDispatch();
