@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # app/controllers/api/greetings_controller.rb
 module Api
   class GreetingsController < ApplicationController

@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 greetings = [
-  "السلام عليكم",
-  "Salam",
-  "Greetings and salutations!",
-  "Hola, ¿cómo estás?",
-  "Ola!"
+  'السلام عليكم',
+  'Salam',
+  'Greetings and salutations!',
+  'Hola, ¿cómo estás?',
+  'Ola!'
 ]
 
 greetings.each do |greeting|
