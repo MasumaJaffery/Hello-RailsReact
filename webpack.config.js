@@ -1,11 +1,20 @@
-const path    = require("path")
-const webpack = require("webpack")
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   mode: "production",
   devtool: "source-map",
   entry: {
     application: "./app/javascript/application.js"
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/, 
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+    ],
   },
   output: {
     filename: "[name].js",
@@ -17,4 +26,4 @@ module.exports = {
       maxChunks: 1
     })
   ]
-}
+};
