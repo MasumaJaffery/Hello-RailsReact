@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Budgetary</b></h3>
+  <h3><b>Hello-RailsReact</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
